@@ -1,11 +1,11 @@
 var
- express = require("express"),
+ http = require("http"),
  port = 8080
 ;
 
-express()
-.use(function (req, res) {
-    res.send("Hello");
+http
+.createServer(function (req, res) {
+    res.end("Hello");
 })
 .listen(port)
 .on("listening", function () {

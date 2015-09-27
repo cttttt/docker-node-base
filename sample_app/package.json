@@ -1,0 +1,11 @@
+{
+  "name": "serious-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "scripts": {
+    "start": "node --debug index",
+    "lint": "eslint ."
+  }
+}
